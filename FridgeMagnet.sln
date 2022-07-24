@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FridgeMagnet.Web", "FridgeMagnet.Web\FridgeMagnet.Web.csproj", "{0804D040-8CBD-4B88-9C0C-01AE90B47E1C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution items", "solution items", "{3FAB08C8-6D89-411A-9D69-4C7E97399820}"
+	ProjectSection(SolutionItems) = preProject
+		build.sh = build.sh
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
