@@ -1,0 +1,2 @@
+/_framework/*
+  Access-Control-Allow-Origin: http://localhost:1313, https://mattcrook.io, https://crookm.com
