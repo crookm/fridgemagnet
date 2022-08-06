@@ -6,12 +6,12 @@
     <div class="container">
         <label title="The number of magnets you have for each letter of the alphabet">
             count of each letter
-            <input type="number" min="1" value="@LetterCount"/>
+            <input type="number" min="1" @bind="@LetterCount"/>
         </label>
 
         <label title="The number of numeric magnets you have for each digit">
             count of each digit
-            <input type="number" min="0" value="@DigitCount"/>
+            <input type="number" min="0" @bind="@DigitCount"/>
         </label>
     </div>
 </fieldset>
