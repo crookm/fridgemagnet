@@ -1,6 +1,6 @@
 input, textarea {
     display: block;
-    width: calc(100% - 8px);
+    width: calc(100% - 14px);
 }
 
 fieldset {
@@ -17,7 +17,7 @@ label > p {
 
 .container {
     display: flex;
-    gap: 8px;
+    gap: 14px;
 }
 
 .container label {
@@ -28,7 +28,7 @@ label > p {
 .button-wrapper {
     display: flex;
     justify-content: flex-end;
-    margin: 8px 0;
+    margin: 14px 0;
 }
 
 .results {
@@ -37,11 +37,11 @@ label > p {
 }
 
 .results.success {
-    border-left: 4px solid #05b005;
+    border-left: 6px solid #05b005;
 }
 
 .results.error {
-    border-left: 4px solid #d70303;
+    border-left: 6px solid #d70303;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -50,10 +50,10 @@ label > p {
     }
 
     .results.success {
-        border-left: 4px solid #067506;
+        border-left: 6px solid #067506;
     }
 
     .results.error {
-        border-left: 4px solid #8a0707;
+        border-left: 6px solid #8a0707;
     }
 }
