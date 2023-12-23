@@ -1,7 +1,5 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FridgeMagnet.Web", "FridgeMagnet.Web\FridgeMagnet.Web.csproj", "{0804D040-8CBD-4B88-9C0C-01AE90B47E1C}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution items", "solution items", "{3FAB08C8-6D89-411A-9D69-4C7E97399820}"
 	ProjectSection(SolutionItems) = preProject
 		build.sh = build.sh
@@ -9,15 +7,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution items", "solution 
 		.github\dependabot.yml = .github\dependabot.yml
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2F0928D7-B680-41EB-9BA2-8BD3746A39AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FridgeMagnet.Web", "src\FridgeMagnet.Web\FridgeMagnet.Web.csproj", "{02216BF4-5BD8-4A00-AD70-9DF54F831FBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0804D040-8CBD-4B88-9C0C-01AE90B47E1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0804D040-8CBD-4B88-9C0C-01AE90B47E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0804D040-8CBD-4B88-9C0C-01AE90B47E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0804D040-8CBD-4B88-9C0C-01AE90B47E1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02216BF4-5BD8-4A00-AD70-9DF54F831FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02216BF4-5BD8-4A00-AD70-9DF54F831FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02216BF4-5BD8-4A00-AD70-9DF54F831FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02216BF4-5BD8-4A00-AD70-9DF54F831FBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02216BF4-5BD8-4A00-AD70-9DF54F831FBF} = {2F0928D7-B680-41EB-9BA2-8BD3746A39AB}
 	EndGlobalSection
 EndGlobal
