@@ -4,6 +4,14 @@ body {
     font-family: sans-serif;
 }
 
+input,
+button {
+    appearance: none;
+    border: 1px solid rgb(200, 200, 200);
+    padding: 3px;
+    border-radius: 2px;
+}
+
 .loader-wrapper {
     display: flex;
     align-items: center;
