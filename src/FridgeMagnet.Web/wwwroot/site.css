@@ -5,7 +5,8 @@ body {
 }
 
 input,
-button {
+button,
+textarea {
     appearance: none;
     border: 1px solid rgb(200, 200, 200);
     padding: 3px;
